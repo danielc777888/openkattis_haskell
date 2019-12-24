@@ -51,6 +51,7 @@ dist
 dist-*
 cabal-dev
 *.o
+*.out
 *.hi
 *.hie
 *.chi
