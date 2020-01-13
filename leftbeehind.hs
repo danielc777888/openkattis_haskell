@@ -3,18 +3,18 @@ main :: IO()
 main = interact (writeOutput . solve . readInput)
 
 readInput :: String -> [(Int, Int)]
-readInput s = map (\l -> (read (words l !! 0) :: Int, read (words l !! 1) :: Int )) (lines s)
+readInput = map (\l -> readLine (words l)) . lines
+
+readLine :: [String] -> (Int, Int)
+readLine (x:y:[]) = (read x, read y)
 
 solve :: [(Int, Int)] -> [String]
-solve xs = filter (/="") $ map (\(a,b) -> solve' a b) xs
-
-solve' :: Int -> Int -> String
-solve' x y
-  | x == 0 && y == 0 = ""
-  | x + y == 13 = "Never speak again."
-  | x > y = "To the convention."
-  | x < y = "Left beehind."
-  | otherwise = "Undecided."
+solve ((0,0):xs) = []
+solve ((x,y):xs)
+  | x + y == 13 = ["Never speak again."] ++ solve xs
+  | x > y = ["To the convention."] ++ solve xs
+  | x < y = ["Left beehind."] ++ solve xs
+  | otherwise = ["Undecided."] ++ solve xs
                   
 writeOutput :: [String] -> String
-writeOutput s = unlines s
+writeOutput = unlines
