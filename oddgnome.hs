@@ -7,13 +7,13 @@ readInput :: String -> [[Int]]
 readInput xs = map(\l -> map read (tail (words l)))  (tail (lines xs))
 
 solve :: [[Int]] -> [Int]
-solve = map findGnome
+solve = map (findGnome 1)
 
-findGnome :: [Int] -> Int
-findGnome xs = case elemIndex (head (dropWhile (\(a,b) -> a == b) z)) z  of
-  Just n -> n + 1
-  Nothing -> error "gnome not found!!"
-  where z = (zip xs [(head xs)..])
+findGnome :: Int -> [Int] -> Int
+findGnome n [] = n + 1
+findGnome n (x:y:xs) = if y > x && (y - x) == 1 then findGnome (n+1) (y:xs)
+  else n + 1
+  
 
 writeOutput :: [Int] -> String
 writeOutput xs = unlines $ map show xs
