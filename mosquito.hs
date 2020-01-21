@@ -26,7 +26,30 @@ parseLifeCycle s = LifeCycle { mosquitoes = read (ws !! 0)
                
 
 solve :: [LifeCycle] -> [Int]
-solve l = map (\x -> sum [eggs x, larvae x] ) l
+solve = map(\l -> mosquitoes (simulate l (weeks l)) )
+
+simulate :: LifeCycle -> Int -> LifeCycle
+simulate l 0 = l
+simulate l n = simulate (newLifeCycle l) (n-1)
+
+newLifeCycle :: LifeCycle -> LifeCycle
+newLifeCycle l = LifeCycle { mosquitoes = simMosquitoes (pupae l) (pupaeSurvivalRate l) 
+                         , pupae = simPupa (larvae l) (larvaeSurvivalRate l)
+                         , larvae = simLarvae (mosquitoes l) (eggs l)
+                         , eggs = eggs l
+                         , larvaeSurvivalRate = larvaeSurvivalRate l
+                         , pupaeSurvivalRate = pupaeSurvivalRate l
+                         , weeks = weeks l}
+
+simLarvae :: Int -> Int -> Int
+simLarvae mosquitos eggs = mosquitos * eggs
+
+simPupa :: Int -> Int -> Int
+simPupa larvae survivalRate = larvae `div` survivalRate
+
+simMosquitoes :: Int -> Int -> Int
+simMosquitoes pupa survivalRate = pupa `div` survivalRate
+
 
 writeOutput :: [Int] -> String
 writeOutput xs =  unlines $ map show xs
