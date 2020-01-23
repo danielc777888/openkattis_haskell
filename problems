@@ -1,19 +1,19 @@
-carrots 	Kattis - carrots 	1.3a, I/O + Sequence Only 	just print P
-faktor 	Kattis - faktor 	1.3a, I/O + Sequence Only 	just print (I-1)*A + 1
-hello 	Kattis - hello 	1.3a, I/O + Sequence Only 	just print 'Hello World!'
-moscowdream 	Kattis - moscowdream 	1.3a, I/O + Sequence Only 	do not forget to test n ≥ 3
-different 	Kattis - different 	1.3b, Selection Only 	simple; just be careful of long long
-eligibility 	Kattis - eligibility 	1.3b, Selection Only 	simple if-else checks
-judgingmoose 	Kattis - judgingmoose 	1.3b, Selection Only 	if-else
-leftbeehind 	Kattis - leftbeehind 	1.3b, Selection Only 	just 4 different cases
-drinkingsong 	Kattis - drinkingsong 	1.3c, Repetition Only 	just one loop; but be careful of with the grammar
-mosquito 	Kattis - mosquito 	1.3c, Repetition Only 	direct simulation
-tarifa 	Kattis - tarifa 	1.3c, Repetition Only 	one pass; array not needed
-timeloop 	Kattis - timeloop 	1.3c, Repetition Only 	just print 'num Abracadabra' N times
-acm 	Kattis - acm 	1.3d, Control Flow 	simple simulation; one pass
-licensetolaunch 	Kattis - licensetolaunch 	1.3d, Control Flow 	easy linear pass
-oddgnome 	Kattis - oddgnome 	1.3d, Control Flow 	linear pass
-statistics 	Kattis - statistics 	1.3d, Control Flow 	one pass; array not needed
+DONE carrots 	Kattis - carrots 	1.3a, I/O + Sequence Only 	just print P
+DONE faktor 	Kattis - faktor 	1.3a, I/O + Sequence Only 	just print (I-1)*A + 1
+DONE hello 	Kattis - hello 	1.3a, I/O + Sequence Only 	just print 'Hello World!'
+DONE moscowdream 	Kattis - moscowdream 	1.3a, I/O + Sequence Only 	do not forget to test n ≥ 3
+DONE different 	Kattis - different 	1.3b, Selection Only 	simple; just be careful of long long
+DONE eligibility 	Kattis - eligibility 	1.3b, Selection Only 	simple if-else checks
+DONE judgingmoose 	Kattis - judgingmoose 	1.3b, Selection Only 	if-else
+DONE leftbeehind 	Kattis - leftbeehind 	1.3b, Selection Only 	just 4 different cases
+DONE drinkingsong 	Kattis - drinkingsong 	1.3c, Repetition Only 	just one loop; but be careful of with the grammar
+DONE mosquito 	Kattis - mosquito 	1.3c, Repetition Only 	direct simulation
+DONE tarifa 	Kattis - tarifa 	1.3c, Repetition Only 	one pass; array not needed
+DONE timeloop 	Kattis - timeloop 	1.3c, Repetition Only 	just print 'num Abracadabra' N times
+DONE acm 	Kattis - acm 	1.3d, Control Flow 	simple simulation; one pass
+DONE licensetolaunch 	Kattis - licensetolaunch 	1.3d, Control Flow 	easy linear pass
+DONE oddgnome 	Kattis - oddgnome 	1.3d, Control Flow 	linear pass
+DONE statistics 	Kattis - statistics 	1.3d, Control Flow 	one pass; array not needed
 artichoke 	Kattis - artichoke 	1.3e, Function 	LA 7150 - WorldFinals Marrakech15; linear scan; probably one of the easiest WorldFinals problem; also available at UVa 01709
 combinationlock 	Kattis - combinationlock 	1.3e, Function 	simple; do as asked; also available at UVa 10550 - Combination Lock
 digits 	Kattis - digits 	1.3e, Function 	direct simulation; also available at UVa 11687 - Digits
