@@ -14,7 +14,7 @@ DONE acm 	Kattis - acm 	1.3d, Control Flow 	simple simulation; one pass
 DONE licensetolaunch 	Kattis - licensetolaunch 	1.3d, Control Flow 	easy linear pass
 DONE oddgnome 	Kattis - oddgnome 	1.3d, Control Flow 	linear pass
 DONE statistics 	Kattis - statistics 	1.3d, Control Flow 	one pass; array not needed
-artichoke 	Kattis - artichoke 	1.3e, Function 	LA 7150 - WorldFinals Marrakech15; linear scan; probably one of the easiest WorldFinals problem; also available at UVa 01709
+DONE artichoke 	Kattis - artichoke 	1.3e, Function 	LA 7150 - WorldFinals Marrakech15; linear scan; probably one of the easiest WorldFinals problem; also available at UVa 01709
 combinationlock 	Kattis - combinationlock 	1.3e, Function 	simple; do as asked; also available at UVa 10550 - Combination Lock
 digits 	Kattis - digits 	1.3e, Function 	direct simulation; also available at UVa 11687 - Digits
 mia 	Kattis - mia 	1.3e, Function 	just if-else check
