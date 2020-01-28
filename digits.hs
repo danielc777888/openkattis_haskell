@@ -1,16 +1,19 @@
+{-# LANGUAGE OverloadedStrings #-}
+import qualified Data.Text as T
+import qualified Data.Text.IO as TI
 
 main :: IO()
-main = interact (writeOutput . solve . readInput)
+main = TI.interact (writeOutput . solve . readInput)
 
-readInput :: String -> [String]
-readInput = filter (/= "END") .  lines  
+readInput :: T.Text -> [T.Text]
+readInput = filter (/= "END") .  T.lines  
 
-solve :: [String] -> [Int]
+solve :: [T.Text] -> [Int]
 solve = map (\s -> length (solve' s))
 
-solve' :: String -> [String]
+solve' :: T.Text -> [T.Text]
 solve' "1" = ["1"]
-solve' s = [s] ++ solve' (show (length s))
+solve' s = [s] ++ solve' (T.pack ( show (T.length s)))
 
-writeOutput :: [Int] -> String
-writeOutput = unlines . map show
+writeOutput :: [Int] -> T.Text
+writeOutput = T.unlines . map (T.pack . show)
