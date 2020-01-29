@@ -21,7 +21,7 @@ DONE mia 	Kattis - mia 	1.3e, Function 	just if-else check
 DONE armystrengthhard 	Kattis - armystrengthhard 	1.3f, Easy 	also see Kattis - armystrengtheasy; re-read the problem statement several times to unveil a trivial solution
 DONE batterup 	Kattis - batterup 	1.3f, Easy 	easy one loop
 DONE hissingmicrophone 	Kattis - hissingmicrophone 	1.3f, Easy 	simple loop
-pokerhand 	Kattis - pokerhand 	1.3f, Easy 	frequency count; report max
+DONE pokerhand 	Kattis - pokerhand 	1.3f, Easy 	frequency count; report max
 bossbattle 	Kattis - bossbattle 	1.3g, Still Easy 	trick question
 bubbletea 	Kattis - bubbletea 	1.3g, Still Easy 	simple simulation
 peasoup 	Kattis - peasoup 	1.3g, Still Easy 	one linear pass
