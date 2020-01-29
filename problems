@@ -18,9 +18,9 @@ DONE artichoke 	Kattis - artichoke 	1.3e, Function 	LA 7150 - WorldFinals Marrak
 DONE combinationlock 	Kattis - combinationlock 	1.3e, Function 	simple; do as asked; also available at UVa 10550 - Combination Lock
 DONE digits 	Kattis - digits 	1.3e, Function 	direct simulation; also available at UVa 11687 - Digits
 DONE mia 	Kattis - mia 	1.3e, Function 	just if-else check
-armystrengthhard 	Kattis - armystrengthhard 	1.3f, Easy 	also see Kattis - armystrengtheasy; re-read the problem statement several times to unveil a trivial solution
-batterup 	Kattis - batterup 	1.3f, Easy 	easy one loop
-hissingmicrophone 	Kattis - hissingmicrophone 	1.3f, Easy 	simple loop
+DONE armystrengthhard 	Kattis - armystrengthhard 	1.3f, Easy 	also see Kattis - armystrengtheasy; re-read the problem statement several times to unveil a trivial solution
+DONE batterup 	Kattis - batterup 	1.3f, Easy 	easy one loop
+DONE hissingmicrophone 	Kattis - hissingmicrophone 	1.3f, Easy 	simple loop
 pokerhand 	Kattis - pokerhand 	1.3f, Easy 	frequency count; report max
 bossbattle 	Kattis - bossbattle 	1.3g, Still Easy 	trick question
 bubbletea 	Kattis - bubbletea 	1.3g, Still Easy 	simple simulation
