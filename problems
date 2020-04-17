@@ -61,7 +61,7 @@ busyschedule 	Kattis - busyschedule 	1.4i, Time, Harder 	sort the time; be caref
 dst 	Kattis - dst 	1.4i, Time, Harder 	straightforward; modulo
 semafori 	Kattis - semafori 	1.4i, Time, Harder 	simple simulation
 timezones 	Kattis - timezones 	1.4i, Time, Harder 	follow the description, tedious; also available at UVa 10371 - Time Zones
-asciiaddition 	Kattis - asciiaddition 	1.4j, Time Waster, Easier 	a+b problem in text format; total gimmick; time waster
+DONE asciiaddition 	Kattis - asciiaddition 	1.4j, Time Waster, Easier 	a+b problem in text format; total gimmick; time waster
 glitchbot 	Kattis - glitchbot 	1.4j, Time Waster, Easier 	time waster; O(n^2) simulation; do not output more than one possible answer
 pachydermpeanutpacking 	Kattis - pachydermpeanutpacking 	1.4j, Time Waster, Easier 	time waster; simple one loop simulation
 printingcosts 	Kattis - printingcosts 	1.4j, Time Waster, Easier 	clear time waster; the hard part is in parsing the costs of each character in the problem description
